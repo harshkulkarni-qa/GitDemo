@@ -47,5 +47,7 @@ public class OffersPageStepDefinition {
 		lp.clickTopDeals();
 		testContextSetup.genericUtils.SwitchWindowToChild();
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Veg/fruit name')]")));
+	
+		 System.out.println("This is checkout page!");
 	}
 }
