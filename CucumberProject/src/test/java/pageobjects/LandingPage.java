@@ -59,4 +59,8 @@ public class LandingPage {
 	public void clickProceedToCheckout() {
 		driver.findElement(proceedToCheckOutButton).click();
 	}
+	
+	 public void test2() {
+		 System.out.println("This is test 2");
+	 }
 }

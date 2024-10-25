@@ -31,5 +31,8 @@ public class CheckOutPage {
 		 return false;
 	 }
 	 
+	 public void test1() {
+		 System.out.println("This is test 1");
+	 }
 
 }
