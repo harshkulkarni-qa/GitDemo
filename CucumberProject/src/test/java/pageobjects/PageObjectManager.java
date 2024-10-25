@@ -21,4 +21,8 @@ public class PageObjectManager {
 	public CheckOutPage getCheckoutPage() {
 		return new CheckOutPage(driver);
 	}
+	
+	public void test4() {
+		System.out.println("Test 4");
+	}
 }

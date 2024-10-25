@@ -22,4 +22,8 @@ public class OffersPage {
 	public String getProductName() {
 		return driver.findElement(actualProdName).getText();
 	}
+	
+	public void test3() {
+		System.out.println("Test 3");
+	}
 }
